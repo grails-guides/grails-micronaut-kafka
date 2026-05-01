@@ -1,12 +1,11 @@
-# grails-micronaut-kakfa
+# Message Queues with Grails and Micronaut Kafka
 
-A guide on how to setup and use the [Micronaut Kafka](https://micronaut-projects.github.io/micronaut-kafka/latest/guide/) in a Grails Application.
+This repository contains the worked sample app for the [Message Queues with Grails and Micronaut Kafka](https://grails.apache.org/guides/grails-micronaut-kafka/4/guide/index.html) guide on the Apache Grails site.
 
-To generate the guide locally: 
+## Run the example
 
-```bash
-$ sdk use java 11.0.12.7.2-amzn
-$ ./gradlew publishGuide
-$ open build/docs/index.html
-```
+`./gradlew bootRun`
 
+## Maintained at apache/grails-static-website
+
+The guide narrative is maintained at https://github.com/apache/grails-static-website. Changes to the guide content go there; this repo holds the worked sample app only.
